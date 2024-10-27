@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/@material-tailwind/html@latest/scripts/collapse.js"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="mt-5 w-full flex items-center justify-center">
+      <div class="relative">
+        <img
+          src="assets/pexels-pixabay-257499.jpg"
+          alt=""
+          class="h-[80vh] w-[100vw] md:h-[90vh] md:w-[90vw] rounded-b-[30px] md:rounded-[30px]"
+        />
+        <div
+          class="absolute inset-0 bg-gradient-to-b from-white via-white/80 to-transparent opacity-100 z-10"
+        ></div>
+        <div
+          class="absolute inset-0 z-20 flex mx-auto max-w-7xl pt-5 items-start justify-between p-5"
+        >
+          <img
+            src="assets/65a72c4d5e8e5402e21df10b_Logo with Green BG 1.png"
+            alt=""
+            class="w-[60px] m-2"
+          />
+          <ul
+            class="md:flex gap-5 text-[13px] font-medium items-center cursor-pointer hidden"
+          >
+            <li>Urban living Labs</li>
+            <li>Ecosystem</li>
+            <li>Startup</li>
+            <li>About</li>
+            <li>News</li>
+            <li>Portfolio</li>
+            <button
+              class="bg-transparent border-black border-[1px] rounded-3xl p-4"
+            >
+              Download brochure
+            </button>
+          </ul>
+          <div class="absolute inset-0 flex flex-col mt-56 p-3">
+            <h1 class="text-black text-5xl sm:text-8xl font-poppins">
+              Hi and welcome
+            </h1>
+            <h1
+              class="text-green-800 text-5xl sm:text-8xl font-light italic font-Cardo"
+            >
+              to SYTX
+            </h1>
+            <div class="flex mt-10">
+              <button
+                class="text-[#195656] bg-[#d0fa81] transition-all hover:bg-white text-[15px] font-medium rounded-full px-3 py-1 inline-flex items-center space-x-2"
+              >
+                <span>Submit Your PitchDesk</span>
+                <img
+                  src="assets/6580f0f00ed64d7c33331c44_arrow-up-right.svg"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="font-Cardo text-center text-[20px] md:text-[40px] italic max-w-5xl mx-auto py-[50px] text"
+    >
+      We invest in entrepreneurs and communities who reimagine "the urban" and
+      gain significant competitive advantages from accessing our Urban Living
+      Labs.
+    </div>
+
+    <div
+      class="sm:grid sm:grid-cols-3 sm:grid-rows-4 grid-rows-12 gap-4 m-4 max-w-[95vw] mx-auto p-2 h-[95vh]"
+    >
+      <div
+        class="bg-building row-span-8 sm:row-span-4 rounded-3xl relative flex flex-row items-end mb-4 sm:mb-0"
+      >
+        <div
+          class="bg-gradient-to-t from-black via-transparent absolute inset-0 rounded-3xl"
+        ></div>
+        <div class="text-white font-cardo z-50 py-4 px-3">
+          <h1 class="text-5xl font-normal">
+            Urban <br />
+            Living Lab
+          </h1>
+          <p class="font-poppins mt-4">
+            Added value beyond investment! Test your product in real estate
+            assets across different European key markets.
+          </p>
+        </div>
+      </div>
+      <div
+        class="bg-[#e7e7e7] rounded-3xl col-span-1 row-span-2 relative overflow-hidden flex flex-row items-end mb-4 sm:mb-0"
+      >
+        <img
+          src="assets/meeting.jpg"
+          alt=""
+          class="absolute left-[80px] bottom-40 -rotate-6 rounded-2xl"
+        />
+        <div class="text-black font-cardo py-4 px-3">
+          <h1 class="text-3xl font-semibold">Pre Seed Funding</h1>
+          <p class="font-poppins mt-2">
+            Added value beyond investment! Test your product in real estate
+            assets across different European key markets.
+          </p>
+        </div>
+      </div>
+      <div class="bg-[#d0fa81] rounded-[30px] col-span-1 row-span-3 mb-4 sm:mb-0">
+        <img
+          src="assets/Green-Sustainable-Building.jpeg"
+          alt=""
+          class="p-4 rounded-[30px] w-auto"
+        />
+        <div class="font-cardo z-50 py-4 px-3">
+          <h1 class="text-5xl font-semibold">Portfolio</h1>
+          <p class="font-poppins mt-4">
+            A purpose driven community of founders making cities and buildings
+            ready for a greener future.
+          </p>
+        </div>
+      </div>
+      <div
+        class="min-h-[130px] bg-team rounded-3xl col-span-1 row-span-2 flex flex-row items-end relative mb-4 sm:mb-0"
+      >
+        <div
+          class="bg-gradient-to-t from-black via-transparent absolute inset-0 rounded-3xl"
+        ></div>
+        <div class="text-white font-cardo z-50 py-4 px-3">
+          <h1 class="text-3xl font-semibold">Team</h1>
+          <p class="font-poppins mt-2">
+            Added value beyond investment! Test your product in real estate
+            assets across different European key markets.
+          </p>
+        </div>
+      </div>
+      <div class="bg-[#195646] rounded-3xl col-span-1 row-span-1">
+        <div class="text-white font-cardo z-50 py-4 px-3">
+          <h1 class="text-3xl font-semibold">Ecosystem</h1>
+          <p class="font-poppins mt-2">
+            Born in Mannheim - at home in the most vibrant ecosystems in Europe.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex flex-col-reverse md:flex-row justify-center gap-9 max-w-6xl mx-auto my-20"
+    >
+      <div class="relative p-4">
+        <img
+          src="assets/659df7fb0dd16e22daadc893_STYX living Lab.jpg"
+          alt=""
+          class="rounded-3xl md:w-[450px]"
+        />
+        <div
+          class="bg-white shadow-gray-500 shadow-sm font-poppins rounded-3xl p-3 w-[300px] absolute bottom-[-40px] left-[-25px] hidden md:block"
+        >
+          <div class="flex items-center gap-2">
+            <img
+              src="assets/65810f395c7a0752bc0e71bc_arrow-up-right.svg"
+              alt=""
+            />
+            <h1 class="font-medium">Industry Expertise</h1>
+          </div>
+          <p class="text-[12px] mt-2">
+            Benefit from decades of startup, real estate and investment
+            expertise.
+          </p>
+        </div>
+
+        <div
+          class="bg-white shadow-gray-500 shadow-sm font-poppins rounded-3xl p-3 w-[300px] absolute top-[-40px] right-[20px] hidden md:block"
+        >
+          <div class="flex items-center gap-2">
+            <img
+              src="assets/65810f3966fcfa4580af66ae_arrow-up-right-1.svg"
+              alt=""
+            />
+            <h1 class="font-medium">Real World Testing</h1>
+          </div>
+          <p class="text-[12px] mt-2">
+            Access buildings, infrastructure and customers from all across the
+            real estate value chain.
+          </p>
+        </div>
+      </div>
+      <div class="w-full text-left p-3 md:w-[40%] md:my-auto mt-[450px] ">
+        <div class="max-w-[400px]">
+          <h1 class="text-4xl font-semibold">
+            STYX Urban Living Labs, your shortcut from idea
+            <span class="font-Cardo italic">to market</span>
+          </h1>
+          <p class="mt-4 text-sm font-poppins">
+            Imagine a place where your startup, your investors, customers and
+            users are all on the same page. The Urban Living Lab is such a place
+            - it's all about true value add for early stage startups in and
+            around the built environment.
+          </p>
+
+          <div class="flex mt-10">
+            <button
+              class="text-[#195656] bg-[#d0fa81] transition-all hover:bg-white text-[14px] font-medium rounded-full pl-3 py-1 inline-flex items-center space-x-2"
+            >
+              <span>More about STYX Urban Living Labs</span>
+              <img
+                src="assets/6580f0f00ed64d7c33331c44_arrow-up-right.svg"
+                alt=""
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container bg-[#f7f7f7] sm:rounded-[120px] pb-[100px]">
+      <div class="max-w-[1380px] mx-auto">
+        <h1 class="text-5xl p-4">
+          Our <span class="font-Cardo italic">Portfolio</span>
+        </h1>
+       
+
+        <div class="owl-carousel owl-theme container mt-3">
+          <div
+            class="h-[500px] rounded-3xl relative bg-cover object-cover mx-4"
+          >
+            <div class="absolute inset-0">
+              <img
+                src="assets/building.jpg"
+                class="absolute inset-0 object-cover rounded-3xl w-full h-full transition-transform duration-300 transform hover:scale-110"
+                alt="Building"
+              />
+              <div
+                class="absolute inset-0 bg-black opacity-50 rounded-3xl"
+              ></div>
+            </div>
+            <div class="absolute left-2 top-2">
+              <button
+                class="bg-transparent border-white border-[1px] rounded-3xl p-2 text-white text-sm"
+              >
+                Green and clean touch
+              </button>
+              <button
+                class="bg-transparent border-white border-[1px] rounded-3xl p-2 text-white text-sm"
+              >
+                Oslo, Norway
+              </button>
+            </div>
+
+            <img
+              src="assets/green.svg"
+              alt=""
+              class="absolute h-[40px] left-[130px] sm:left-[180px] top-2"
+            />
+            <img
+              src="assets/img-log.jpg"
+              alt=""
+              class="absolute rounded-lg top-[200px] left-[155px]"
+              style="width: 60px; height: 60px"
+            />
+          </div>
+
+          <div
+            class="h-[500px] rounded-3xl relative bg-cover object-cover mx-4"
+          >
+            <div class="absolute inset-0">
+              <img
+                src="assets/building.jpg"
+                class="absolute inset-0 object-cover rounded-3xl w-full h-full transition-transform duration-300 transform hover:scale-110"
+                alt="Building"
+              />
+              <div
+                class="absolute inset-0 bg-black opacity-50 rounded-3xl"
+              ></div>
+            </div>
+            <div class="absolute left-2 top-2">
+              <button
+                class="bg-transparent border-white border-[1px] rounded-3xl p-2 text-white text-sm"
+              >
+                Green and clean touch
+              </button>
+              <button
+                class="bg-transparent border-white border-[1px] rounded-3xl p-2 text-white text-sm"
+              >
+                Oslo, Norway
+              </button>
+            </div>
+
+            <img
+              src="assets/green.svg"
+              alt=""
+              class="absolute h-[40px] left-[130px] sm:left-[180px] top-2"
+            />
+            <img
+              src="assets/img-log.jpg"
+              alt=""
+              class="absolute rounded-lg top-[200px] left-[155px]"
+              style="width: 60px; height: 60px"
+            />
+          </div>
+
+          <div
+            class="h-[500px] rounded-3xl relative bg-cover object-cover mx-4"
+          >
+            <div class="absolute inset-0">
+              <img
+                src="assets/building.jpg"
+                class="absolute inset-0 object-cover rounded-3xl w-full h-full transition-transform duration-300 transform hover:scale-110"
+                alt="Building"
+              />
+              <div
+                class="absolute inset-0 bg-black opacity-50 rounded-3xl"
+              ></div>
+            </div>
+            <div class="absolute left-2 top-2">
+              <button
+                class="bg-transparent border-white border-[1px] rounded-3xl p-2 text-white text-sm"
+              >
+                Green and clean touch
+              </button>
+              <button
+                class="bg-transparent border-white border-[1px] rounded-3xl p-2 text-white text-sm"
+              >
+                Oslo, Norway
+              </button>
+            </div>
+            <img
+              src="assets/green.svg"
+              alt=""
+              class="absolute h-[40px] left-[130px] sm:left-[180px] top-2"
+            />
+            <img
+              src="assets/img-log.jpg"
+              alt=""
+              class="absolute rounded-lg top-[200px] left-[155px]"
+              style="width: 60px; height: 60px"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="my-7">
+      <h1 class="text-6xl p-4 sm:text-center font-semibold">
+        Meet the STYX <span class="font-Cardo italic font-normal">Team</span>
+      </h1>
+      <p class="max-w-xl font-poppins mx-auto p-2 text-center">
+        We are a European team of experienced entrepreneurs, real estate
+        veterans, ecosystem architects, fund managers and corporate leaders.
+      </p>
+
+      <div class="owl-carousel owl-theme container mt-3 mx-auto">
+        <div class="relative w-[300px] sm:w-[400px] mt-2 mx-auto">
+          <img src="assets/team-bg.png" alt="" class=" " />
+          <img
+            src="assets/team-bgm.svg"
+            alt=""
+            class="absolute -top-2 left-5 -z-30"
+          />
+          <h1 class="font-poppins text-3xl font-medium my-2">
+            Marcel Hauptenbuchner
+          </h1>
+          <h1 class="font-Cardo italic my-2 text-2xl">
+            Venture Partner Mannheim
+          </h1>
+          <p class="font-poppins">
+            Marcel is a real estate veteran managing two large real estate
+            portfolios. He is always on the look-out for innovative solutions
+            aiding the green transformation of his existing building stock.
+          </p>
+        </div>
+
+        <div class="relative w-[300px] sm:w-[400px] mt-2 mx-auto">
+          <img src="assets/team-3.png" alt="" class=" " />
+          <img
+            src="assets/team-bgm.svg"
+            alt=""
+            class="absolute -top-2 left-5 -z-30"
+          />
+          <h1 class="font-poppins text-3xl font-medium my-2">
+            Marcel Hauptenbuchner
+          </h1>
+          <h1 class="font-Cardo italic my-2 text-2xl">
+            Venture Partner Mannheim
+          </h1>
+          <p class="font-poppins">
+            Marcel is a real estate veteran managing two large real estate
+            portfolios. He is always on the look-out for innovative solutions
+            aiding the green transformation of his existing building stock.
+          </p>
+        </div>
+
+        <div class="relative w-[300px] sm:w-[400px] mt-2 mx-auto">
+          <img src="assets/team-4.png" alt="" class=" " />
+          <img
+            src="assets/team-bgm.svg"
+            alt=""
+            class="absolute -top-2 left-5 -z-30"
+          />
+          <h1 class="font-poppins text-3xl font-medium my-2">
+            Marcel Hauptenbuchner
+          </h1>
+          <h1 class="font-Cardo italic my-2 text-2xl">
+            Venture Partner Mannheim
+          </h1>
+          <p class="font-poppins">
+            Marcel is a real estate veteran managing two large real estate
+            portfolios. He is always on the look-out for innovative solutions
+            aiding the green transformation of his existing building stock.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <h1
+      class="font-Cardo md:text-[480px] text-[111px] font-extralight italic text-center -z-[2000]"
+    >
+      FAQ
+    </h1>
+    <div class="sm:-mt-[150px] z-[3000] select-none px-2">
+      <div class="max-w-6xl mx-auto my-3 p-5 sm:rounded-full rounded-2xl bg-[#f7f7f7]">
+        <div class="flex justify-between accordian">
+          <h1 class="sm:text-[32px] text-lg font-poppins">
+            What should I do before contacting STYX as a startup?
+          </h1>
+          <img src="assets/faq.svg" alt="" class="icon" />
+        </div>
+
+        <div class="accordian-body">
+          <div class="answer">
+            Before contacting STYX to inquire about a potential investment,
+            founders should consider STYX's investment criteria. STYX invests at
+            the earliest stage possible in European companies carrying a strong
+            Urban Living Lab use case and value-add potential. STYX invests in
+            startups in the following verticals: PropTech, Green & CleanTech,
+            Smart City, and ConTech.
+          </div>
+        </div>
+      </div>
+
+      <div class="max-w-6xl mx-auto my-3 p-5 sm:rounded-full rounded-2xl bg-[#f7f7f7]">
+        <div class="flex justify-between accordian">
+          <h1 class="sm:text-[32px] text-lg font-poppins">
+            STYX has no Urban Living Lab in my location. What can I do?
+          </h1>
+          <img src="assets/faq.svg" alt="" class="icon" />
+        </div>
+
+        <div class="accordian-body">
+          <div class="answer">
+            Before contacting STYX to inquire about a potential investment, STYX
+            considers and has, in the past, invested in startups across Europe,
+            no matter if a local Urban Living Lab exists in the given location.
+            Just contact us through the contact options provided on the website
+            (Submit your PitchDeck, LinkedIn, Email).
+          </div>
+        </div>
+      </div>
+
+      <div class="max-w-6xl mx-auto my-3 p-5 sm:rounded-full rounded-2xl bg-[#f7f7f7]">
+        <div class="flex justify-between accordian">
+          <h1 class="sm:text-[32px] text-lg font-poppins">
+            How do I make sure my pitch deck is on top of the pile?
+          </h1>
+          <img src="assets/faq .svg" alt="" class="icon" />
+        </div>
+
+        <div class="accordian-body">
+          <div class="answer">
+            We generally try to follow up with any startup inquiry that broadly
+            matches our investment criteria. To ensure you are on top of the
+            pile, highlight why you think you are an Urban Living Lab match or
+            try to receive a warm intro through a network partner or fellow VC
+            fund. Moreover, submitting your pitch deck through our website is
+            definitely a great option.
+          </div>
+        </div>
+      </div>
+
+      <div class="max-w-6xl mx-auto p-5 sm:rounded-full rounded-2xl bg-[#f7f7f7]">
+        <div class="flex justify-between accordian">
+          <h1 class="sm:text-[32px] text-lg font-poppins">
+            How do I make sure my pitch deck is on top of the pile?
+          </h1>
+          <img src="assets/faq.svg" alt="" class="icon" />
+        </div>
+
+        <div class="accordian-body">
+          <div class="answer">
+            We generally try to follow up with any startup inquiry that broadly
+            matches our investment criteria. To ensure you are on top of the
+            pile, highlight why you think you are an Urban Living Lab match or
+            try to receive a warm intro through a network partner or fellow VC
+            fund. Moreover, submitting your pitch deck through our website is
+            definitely a great option.
+          </div>
+        </div>
+      </div>
+
+      <div class="max-w-6xl mx-auto my-3 bg-[#f7f7f7] p-5 sm:rounded-full rounded-2xl">
+        <div class="flex justify-between accordian">
+          <h1 class="sm:text-[32px] text-lg font-poppins">
+            How do I make sure my pitch deck is on top of the pile?
+          </h1>
+          <img src="assets/faq.svg" alt="" class="icon" />
+        </div>
+
+        <div class="accordian-body">
+          <div class="answer">
+            We generally try to follow up with any startup inquiry that broadly
+            matches our investment criteria. To ensure you are on top of the
+            pile, highlight why you think you are an Urban Living Lab match or
+            try to receive a warm intro through a network partner or fellow VC
+            fund. Moreover, submitting your pitch deck through our website is
+            definitely a great option.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="max-w-7xl max-h-screen mx-auto sm:flex mt-[100px]">
+      <div class="sm:w-1/2">
+        <h1 class="text-7xl p-4 font-semibold">
+          Get in <span class="font-Cardo italic font-normal">touch</span>
+        </h1>
+        <p class="font-poppins text-sm p-3">
+          You are a startup, potential partner or fellow Investor?<br />
+          Get in touch and let's shoot for the moon.
+        </p>
+      </div>
+      <div class="sm:w-1/2 p-4">
+        <div class="sm:flex gap-3">
+          <div class="flex flex-col">
+            <label for="fname" class="font-poppins p-2">First name</label>
+            <input
+              type="text"
+              placeholder="Farhan"
+              class="sm:w-[300px] bg-[#f7f7f7] rounded-full py-5 px-3"
+            />
+          </div>
+  
+          <div class="flex flex-col">
+            <label for="fname" class="font-poppins p-2">Last name</label>
+              <input
+              type="text"
+              placeholder="Muzaffar"
+              class="sm:w-[300px] bg-[#f7f7f7] rounded-full py-5 px-3"
+            />
+          </div>
+        </div>
+
+        <div class="sm:flex gap-3">
+          <div class="flex flex-col">
+            <label for="fname" class="font-poppins p-2">Email</label>
+            <input
+              type="email"
+              placeholder="xyz@gmail.com"
+              class="sm:w-[300px] bg-[#f7f7f7] rounded-full py-5 px-3"
+            />
+          </div>
+  
+          <div class="flex flex-col">
+            <label for="fname" class="font-poppins p-2">Company</label>
+            <input
+              type="text"
+              placeholder="Axme startup"
+              class="sm:w-[300px] bg-[#f7f7f7] rounded-full py-5 px-3"
+            />
+          </div>
+        </div>
+
+    
+          <div class="flex flex-col">
+            <label for="fname" class="font-poppins p-2">Message</label>
+            <textarea name="" id="" class="bg-[#f7f7f7] w-full rounded-3xl p-4" rows="6" placeholder="Enter your message"></textarea>
+          </div>
+  
+          <button
+          class="text-[#195656] mt-3 bg-[#d0fa81] transition-all hover:bg-white text-[14px] font-medium rounded-full pl-3 py-1 inline-flex items-center space-x-2"
+        >
+          <span class="text-lg">Get in touch</span>
+          <img
+            src="assets/6580f0f00ed64d7c33331c44_arrow-up-right.svg"
+            alt=""
+          />
+        </button>
+        </div>
+      </div>
+   
+
+      
+    </div>
+  </body>
+  <script>
+    document.querySelectorAll(".accordian").forEach((accordian) => {
+      const icon = accordian.querySelector(".icon");
+      const answer = accordian.parentElement.querySelector(".answer");
+
+      accordian.addEventListener("click", () => {
+        if (icon.classList.contains("active")) {
+          icon.classList.remove("active");
+          answer.style.maxHeight = 0;
+        } else {
+          icon.classList.add("active");
+          answer.style.maxHeight = answer.scrollHeight + "px";
+        }
+      });
+    });
+
+    $(document).ready(function () {
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 5,
+        nav: false,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 1,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    });
+  </script>
+</html>
